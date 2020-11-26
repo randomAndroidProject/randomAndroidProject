@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.randomandroidproject.randomandroidproject.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:text="hello"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="203dp" />
 </android.support.constraint.ConstraintLayout>
