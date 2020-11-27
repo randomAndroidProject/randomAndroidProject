@@ -29,15 +29,14 @@ public class HomeActivity extends AppCompatActivity {
 
         Intent i2=new Intent(HomeActivity.this,MainActivity3.class);
 
-
-
-
-
         startActivity(i2);
         finish();
+    }
 
-
-
+    public void goToVideos(View view) {
+        Intent i=new Intent(HomeActivity.this,Videos.class);
+        startActivity(i);
+        finish();
     }
 
 }
