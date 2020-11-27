@@ -1,4 +1,4 @@
-package com.example.randomandroidproject.randomandroidproject;
+package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
 import org.junit.Test;
 

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">randomAndroidProject</string>
+    <string name="app_name">Mental health and psychosocial support app</string>
+    <string name="title_activity_home">HomeActivity</string>
 </resources>
