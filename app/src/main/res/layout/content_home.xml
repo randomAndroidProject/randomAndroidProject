@@ -6,19 +6,17 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.yashvarma.mentalhealthandpsychosocialsupportapp.HomeActivity"
+    tools:layout_editor_absoluteY="81dp"
     tools:showIn="@layout/activity_home">
 
     <ImageButton
         android:id="@+id/imagebutton1"
         android:layout_width="295dp"
         android:layout_height="138dp"
-        android:layout_marginBottom="333dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         android:onClick="func2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/quotes1" />
