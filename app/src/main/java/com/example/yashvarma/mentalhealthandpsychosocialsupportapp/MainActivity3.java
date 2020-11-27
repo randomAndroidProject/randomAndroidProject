@@ -9,10 +9,10 @@ import android.widget.TextView;
 public class MainActivity3 extends AppCompatActivity {
 
     String []quote={
-            "Never give up","Believe in yourself","Good artists copy but great artists steal","Life is too short if you give up easily."};
-    int i=0;
-    int j=0;
-    String []quote1={"Your limitation—it's only your imagination.","Push yourself, because no one else is going to do it for you.","The harder you work for something, the greater you'll feel when you achieve it.","Dream bigger."};
+            "Never give up","Believe in yourself","Good artists copy but great artists steal","Life is too short if you give up easily.","Your limitation—it's only your imagination.","Push yourself, because no one else is going to do it for you.","The harder you work for something, the greater you'll feel when you achieve it.","Dream bigger."};
+    static int i=0;
+
+
 
     public void func3(View view){
 
@@ -50,10 +50,14 @@ public class MainActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        int j=getIntent().getIntExtra("passed_value_to_next",0);
+
 
         TextView text4=(TextView)findViewById(R.id.text3);
-        text4.setText(quote1[j]);
+        if(i==quote.length)
+            i=0;
+
+        text4.setText(quote[i]);
+        i++;
 
 
     }
