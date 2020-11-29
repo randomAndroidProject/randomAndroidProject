@@ -77,12 +77,7 @@ public class MainActivity3 extends AppCompatActivity {
 
 
 
-        TextView text5=(TextView)findViewById(R.id.text3);
-        if(i==quote.length)
-            i=0;
-
-        text5.setText(quote[i]);
-        i++;
+        
 
 
 
