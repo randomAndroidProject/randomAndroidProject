@@ -12,9 +12,6 @@ import android.widget.ImageView;
 public class HomeActivity extends AppCompatActivity {
 
 
-     static int j=0;
-    String [] s2={"Never give up","Believe in yourself","Good artists copy but great artists steal","Life is too short if you give up easily."};
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,21 +29,14 @@ public class HomeActivity extends AppCompatActivity {
 
         Intent i2=new Intent(HomeActivity.this,MainActivity3.class);
 
-
-        if(j==s2.length)
-            j=0;
-
-
-
-        i2.putExtra("passed_value_to_next",j);
-        ++j;
-
-
         startActivity(i2);
         finish();
+    }
 
-
-
+    public void goToVideos(View view) {
+        Intent i=new Intent(HomeActivity.this,Videos.class);
+        startActivity(i);
+        finish();
     }
 
 }

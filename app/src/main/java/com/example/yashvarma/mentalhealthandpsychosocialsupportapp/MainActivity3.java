@@ -65,6 +65,7 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
+<<<<<<< HEAD
 
         i++;
         if(i==quote.length)
@@ -74,6 +75,15 @@ public class MainActivity3 extends AppCompatActivity {
         text4.setText(quote[i]);
 
 
+=======
+
+        TextView text4=(TextView)findViewById(R.id.text3);
+        if(i==quote.length)
+            i=0;
+
+        text4.setText(quote[i]);
+        i++;
+>>>>>>> e0069f7e3ac1408e29a79ac105e797cf693d8a82
 
 
     }
