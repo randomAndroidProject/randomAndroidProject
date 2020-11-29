@@ -21,13 +21,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/quotes1" />
 
-<<<<<<< HEAD
-=======
+
+
     <ImageButton
         android:id="@+id/videoOptionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="12dp"
         android:onClick="goToVideos"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,5 +37,5 @@
         app:layout_constraintTop_toBottomOf="@+id/imagebutton1"
         app:srcCompat="@drawable/video" />
 
->>>>>>> e0069f7e3ac1408e29a79ac105e797cf693d8a82
+
 </android.support.constraint.ConstraintLayout>
