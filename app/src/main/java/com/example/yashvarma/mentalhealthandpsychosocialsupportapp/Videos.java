@@ -1,6 +1,7 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,12 +21,31 @@ public class Videos extends AppCompatActivity {
     }
 
     public void openVideo(View view) {
-        Intent intent = new Intent(Videos.this, TheVideo.class);
         String idString = getId(view);
         int id = Integer.parseInt(idString.substring(64)); // ** dependent on company name and app name
-        intent.putExtra("id", id);
-        startActivity(intent);
-        finish();
+        String firstPartBrowser = "https://www.youtube.com/watch?v=";
+        String firstPartYoutube = "vnd.youtube:";
+        String[] secondPart =
+                {"Sorry Something went wrong",  // in case of an error
+                        "NccQoPJjdt0",
+                        "3SDkzDlw1yc",
+                        "3tX6pBqP_KY",
+                        "k9zTr2MAFRg",
+                        "kBsUwIfL8kU",
+                        "m050iy5_2ng"
+                };
+
+        Uri uriYoutube = Uri.parse(firstPartYoutube + secondPart[id]);
+        Intent goToYoutube = new Intent(Intent.ACTION_VIEW, uriYoutube);
+        if(goToYoutube.resolveActivity(getPackageManager())!=null) {
+            startActivity(goToYoutube);
+        } else {
+            Uri uriBrowser = Uri.parse(firstPartBrowser + secondPart[id]);
+            Intent goToBrowser = new Intent(Intent.ACTION_VIEW, uriBrowser);
+            if(goToBrowser.resolveActivity(getPackageManager())!=null) {
+                startActivity(goToBrowser);
+            }
+        }
     }
 
 }

@@ -24,7 +24,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".Videos" />
-        <activity android:name=".TheVideo"></activity>
     </application>
 
 </manifest>
