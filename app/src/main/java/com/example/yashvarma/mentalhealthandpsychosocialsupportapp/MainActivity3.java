@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity3 extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class MainActivity3 extends AppCompatActivity {
 
 
     public void func3(View view){
+        i++;
 
         TextView text3=(TextView)findViewById(R.id.text3);
         if(i==quote.length)
@@ -24,7 +26,7 @@ public class MainActivity3 extends AppCompatActivity {
         text3.setText(quote[i]);
 
 
-        i++;
+
 
 
     }
@@ -33,6 +35,18 @@ public class MainActivity3 extends AppCompatActivity {
         Intent i4=new Intent(MainActivity3.this,HomeActivity.class);
         startActivity(i4);
         finish();
+
+    }
+
+    public void funcPrev(View view)
+    {
+        i--;
+        if(i<0)
+            i=quote.length-1;
+
+        TextView prevtext=(TextView)findViewById(R.id.text3);
+        prevtext.setText(quote[i]);
+
 
     }
 
@@ -52,12 +66,19 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
 
-        TextView text4=(TextView)findViewById(R.id.text3);
+
+        i++;
         if(i==quote.length)
             i=0;
 
+        TextView text4=(TextView)findViewById(R.id.text3);
         text4.setText(quote[i]);
-        i++;
+
+
+
+
+        
+
 
 
     }
