@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Mental health and psychosocial support app</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string-array name="motivational_people_names">
+        <item>Thomas Alva Edison</item>
+        <item>A.P.J. Abdul Kalam</item>
+        <item>Albert Einstein</item>
+        <item>Elon Reeve Musk</item>
+        <item>Mohandas Karamchand Gandhi</item>
+        <item>Sundhar Pichai</item>
+        <item>Stephen Hawking</item>
+    </string-array>
 </resources>

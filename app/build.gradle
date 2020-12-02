@@ -26,4 +26,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5' //api from github
+    //minimum 17 ver is req but we have sdk ver 15
 }
