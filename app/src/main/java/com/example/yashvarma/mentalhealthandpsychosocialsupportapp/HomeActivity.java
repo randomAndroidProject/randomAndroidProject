@@ -39,4 +39,17 @@ public class HomeActivity extends AppCompatActivity {
         finish();
     }
 
+
+    public void func5(View view)
+    {
+
+        Intent i3=new Intent(HomeActivity.this,notify1.class);
+        startActivity(i3);
+        finish();
+
+
+
+
+    }
+
 }
