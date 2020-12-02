@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/randomAndroidProject.iml" filepath="$PROJECT_DIR$/randomAndroidProject.iml" />
-      <module fileurl="file://C:\Users\YASH VARMA\AndroidStudioProjects\sample33\randomAndroidProject\randomAndroidProject.iml" filepath="C:\Users\YASH VARMA\AndroidStudioProjects\sample33\randomAndroidProject\randomAndroidProject.iml" />
     </modules>
   </component>
 </project>
