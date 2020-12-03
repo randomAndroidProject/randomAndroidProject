@@ -1,6 +1,7 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,4 +54,9 @@ public class VideoListAdapter extends BaseAdapter {
 
         return v;
     }
+
+
+
+
+
 }

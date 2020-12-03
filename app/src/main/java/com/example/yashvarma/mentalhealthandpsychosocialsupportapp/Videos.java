@@ -1,5 +1,6 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
@@ -66,6 +67,16 @@ public class Videos extends AppCompatActivity {
                 }
             }
         });
+
+    }
+
+    @Override
+    public void onBackPressed(){
+
+        Intent i5=new Intent(Videos.this,HomeActivity.class);
+        startActivity(i5);
+        finish();
+
 
     }
 

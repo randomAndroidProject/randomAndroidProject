@@ -1,5 +1,6 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,6 +40,15 @@ public class notify2 extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed(){
+
+        Intent i4=new Intent(notify2.this,HomeActivity.class);
+        startActivity(i4);
+        finish();
+
+
+    }
 
 
 
