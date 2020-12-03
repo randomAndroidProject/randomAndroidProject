@@ -29,7 +29,7 @@ public class notify1 extends AppCompatActivity {
         TimePicker timePicker=(TimePicker)findViewById(R.id.timePicker2);
         Integer edit2=Integer.parseInt(editText1.getText().toString());
 
-        
+
         SharedPreferences mPreferences=getSharedPreferences("db",MODE_PRIVATE);
         SharedPreferences.Editor editor=mPreferences.edit();
         editor.putInt("count",edit2);

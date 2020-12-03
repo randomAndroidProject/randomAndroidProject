@@ -24,12 +24,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".Videos" />
-<<<<<<< HEAD
+
         <activity android:name=".notify1" />
         <receiver android:name=".AlarmReceiver" />
         <activity android:name=".notify2"></activity>
-=======
->>>>>>> 8112d044d710dd969c2a8b05794cbee4bcf3debe
+
+
     </application>
 
 </manifest>
