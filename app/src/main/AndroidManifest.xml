@@ -24,27 +24,26 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".Videos" />
-<<<<<<< HEAD
 
-=======
->>>>>>> 482c37123afb32294e6f8189112483283f0b27ff
+
+
 
         <activity android:name=".notify1" />
         <receiver android:name=".AlarmReceiver" />
         <activity android:name=".notify2"></activity>
 
 
-<<<<<<< HEAD
+
 
         <activity android:name=".notify1" />
         <receiver android:name=".AlarmReceiver" />
         <activity android:name=".notify2"></activity>
 
-=======
+
         <activity android:name=".notify1" />
         <receiver android:name=".AlarmReceiver" />
         <activity android:name=".notify2"></activity>
->>>>>>> 482c37123afb32294e6f8189112483283f0b27ff
+
     </application>
 
 </manifest>
