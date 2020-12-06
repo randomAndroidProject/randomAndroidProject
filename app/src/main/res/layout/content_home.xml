@@ -15,6 +15,32 @@
         android:padding="6sp">
 
         <ImageButton
+            android:id="@+id/gamecontroller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="104dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="15dp"
+            android:onClick="gamefunc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/musicButton"
+            app:srcCompat="@drawable/gamecontroller" />
+
+        <ImageButton
+            android:id="@+id/musicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="112dp"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="12dp"
+            android:onClick="musicfunc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chatBotButton"
+            app:srcCompat="@drawable/headphones" />
+
+        <ImageButton
             android:id="@+id/imagebutton1"
             android:layout_width="295dp"
             android:layout_height="138dp"

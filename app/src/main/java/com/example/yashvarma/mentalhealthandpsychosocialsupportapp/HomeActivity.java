@@ -3,12 +3,9 @@ package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.ImageView;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -55,6 +52,27 @@ public class HomeActivity extends AppCompatActivity {
         if(goToBrowser.resolveActivity(getPackageManager())!=null) {
             startActivity(goToBrowser);
         }
+    }
+
+    public void musicfunc(View view){
+
+        Intent i6=new Intent(HomeActivity.this,Music.class);
+        startActivity(i6);
+        finish();
+
+
+
+    }
+
+
+    public void gamefunc(View view){
+        Intent i10=new Intent(HomeActivity.this,Game.class);
+        startActivity(i10);
+        finish();
+
+
+
+
     }
 
 }
