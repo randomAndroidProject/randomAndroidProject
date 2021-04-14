@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mental health and psychosocial support app</string>
+    <string name="app_name"><b>Happy Me</b></string>
     <string name="title_activity_home">HomeActivity</string>
     <string-array name="motivational_people_names">
         <item>Thomas Alva Edison</item>

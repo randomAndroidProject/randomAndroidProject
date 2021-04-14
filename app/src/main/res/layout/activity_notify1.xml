@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yashvarma.mentalhealthandpsychosocialsupportapp.notify1">
+    tools:context="com.example.yashvarma.mentalhealthandpsychosocialsupportapp.notify1"
+    android:background="#add8e6">
 
 
     <Button
@@ -52,8 +53,8 @@
         android:id="@+id/textView3"
         android:layout_width="205dp"
         android:layout_height="42dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="1dp"
         android:text="Enter the goal that you want to set:"
         android:textAlignment="center"
@@ -61,7 +62,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/edit1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

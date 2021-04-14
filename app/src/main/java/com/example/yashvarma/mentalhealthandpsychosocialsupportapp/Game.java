@@ -1,5 +1,6 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -176,6 +177,16 @@ public class Game extends AppCompatActivity {
     }
 
 
+
+    @Override
+    public void onBackPressed(){
+
+        Intent i5=new Intent(Game.this,HomeActivity.class);
+        startActivity(i5);
+        finish();
+
+
+    }
 
 
 

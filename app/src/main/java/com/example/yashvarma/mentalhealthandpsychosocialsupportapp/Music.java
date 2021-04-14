@@ -1,5 +1,6 @@
 package com.example.yashvarma.mentalhealthandpsychosocialsupportapp;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.os.Message;
@@ -144,6 +145,15 @@ public class Music extends AppCompatActivity {
 
 
 
+    @Override
+    public void onBackPressed(){
+
+        Intent i5=new Intent(Music.this,HomeActivity.class);
+        startActivity(i5);
+        finish();
+
+
+    }
 
 
 
